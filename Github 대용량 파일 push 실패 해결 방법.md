@@ -77,7 +77,7 @@ git lfs track "파일명"
 ```
 ```
 git pull origin main
-git add *   <- 변경 파일 추가
+git add *   # 변경 파일 추가
 git commit -m "commit 메시지 작성"
 git push -u origin main 
 ```
