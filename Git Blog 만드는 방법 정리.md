@@ -30,22 +30,22 @@ $ mkdir git_blog
 $ cd git_blog
 $ git clone {Git Blog Repository HTTPS 주소}
 ```
-* {Git Blog Repository HTTPS 주소} 는 아래 이미지 참고
+* `{Git Blog Repository HTTPS 주소}` 는 아래 이미지 참고
 
 ![repository](https://user-images.githubusercontent.com/113915835/221565934-6ace75bf-f8ae-47fc-ba8a-da0c876de184.png)
 
 ### 3. `git clone` 한 폴더에서 간단한 파일 생성하기
 
 ```bash
-cd {Git Blog Repository 명}
-echo "Hello World" > index.html
+$ cd {Git Blog Repository 명}
+$ echo "Hello World" > index.html
 ```
 
 ### 4. 생성한 index.html 파일을 Github로 Push 하기
 ```bash
-git add *
-git commit -m "커밋메시지" # "커밋메시지"는 "start git blog"로 하여 생성함
-git push -u origin main
+$ git add *
+$ git commit -m "커밋메시지" # "커밋메시지"는 "start git blog"로 하여 생성함
+$ git push -u origin main
 ```
 * ` https://{Git Blog Repository 명}` 으로 접속하여 정상적으로 홈페이지가 생성되었는 지 확인
 
@@ -54,19 +54,21 @@ git push -u origin main
 
 
 ## jekyll 설치 후 jekyll 로컬 서버에 띄우기
-* Git Blog 꾸밀 때 jekyll을 사용
+```
+Git Blog 꾸밀 때 jekyll을 사용함.
+```
 
 ### 1. jekyll 다운 받기
 
 * git clone 한 폴더에서 jekyll을 다운받아야 함.
 
 ```bash
-gem install bundler
-gem install jekyll
+$ gem install bundler
+$ gem install jekyll
 ```
 ### 2. 이전에 만들었던 index.html 파일 삭제하기
 ```bash
-rm -f index.html
+$ rm -f index.html
 ```
 
 ### 3. 명령어 실행
@@ -74,27 +76,27 @@ rm -f index.html
 * 다음과 같이 root 디렉터리에 저장해야 함.
 
 ```bash
-jekyll new ./
+$ jekyll new ./
 ```
 
 ### 4. bundle 설치
 ```bash
-bundle install
+$ bundle install
 ```
 
 ### 5. jekyll을 로컬 서버에 띄우기
 
-```
-bundle exec jekyll serve
+```bash
+$ bundle exec jekyll serve
 ```
 * `http://127.0.0.1:4000/` 을 새 브라우저에 입력한 후 제대로 적용되었는지 확인
 
 
 ### 6. Github로 Push 하기
 ```bash
-git add *
-git commit -m "커밋메시지" # "커밋메시지"는 "jekyll start"로 하여 생성함
-git push -u origin main
+$ git add *
+$ git commit -m "커밋메시지" # "커밋메시지"는 "jekyll start"로 하여 생성함
+$ git push -u origin main
 ```
 *  `https://{Git Blog Repository 명}` 으로 접속하여 정상적으로 변경되었는지 확인
 
@@ -107,30 +109,30 @@ git push -u origin main
 
 ### 1. 로컬에 새폴더 생성
 ```bash
-cd ..
-cd ..
-mkdir blog
+$ cd ..
+$ cd ..
+$ mkdir blog
 ```
 ### 2. 생성한 새폴더로 이동
 ```bash
-cd blog
+$ cd blog
 ```
 ### 3. 생성한 Git Blog Github Repository 연결
 ```bash
-git init
-git remote add origin {Git Blog Repository HTTPS 주소}
+$ git init
+$ git remote add origin {Git Blog Repository HTTPS 주소}
 ```
 
 ### 4. Repository에 있는 데이터를 blog 폴더에 내려받기
 ```bash
-git pull origin main
+$ git pull origin main
 ```
 * blog 폴더에 내려받은 후 .git 폴더를 제외한 나머지 파일들은 전부 삭제
 
 ### 5. 명령어 실행
 * blog 폴더에서 아래의 명령어 실행
 ```bash
-jekyll new ./
+$ jekyll new ./
 ```
 
 ### 6. 다운받은 jekyll 테마 파일(압축파일)을 blog 폴더에 압축 풀기
@@ -139,15 +141,15 @@ jekyll new ./
 
 ### 7. bundle 설치 후 로컬 서버에 띄우기
 ```bash
-bundle install
-bundle exec jekyll serve
+$ bundle install
+$ bundle exec jekyll serve
 ```
 * `http://127.0.0.1:4000/` 을 새 브라우저에 입력한 후 jekyll 테마가 제대로 적용되었는지 확인
 
 ### 8. Github로 Push 하기
 ```bash
-git add *
-git commit -m "커밋메시지" # "커밋메시지"는 "change theme"로 하여 생성함
-git push -u origin main
+$ git add *
+$ git commit -m "커밋메시지" # "커밋메시지"는 "change theme"로 하여 생성함
+$ git push -u origin main
 ```
 *  `https://{Git Blog Repository 명}` 으로 접속하여 정상적으로 변경되었는지 확인
