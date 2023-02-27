@@ -50,6 +50,9 @@ git push -u origin main
 * ` https://{Git Blog Repository 명}` 으로 접속하여 정상적으로 홈페이지가 생성되었는 지 확인
 
 </br>
+
+
+
 ## jekyll 설치 후 jekyll 로컬 서버에 띄우기
 * Git Blog 꾸밀 때 jekyll을 사용
 
