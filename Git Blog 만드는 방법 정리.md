@@ -2,7 +2,9 @@
 
 ```참고
 Git blog는 Jekyll과 Github를 이용하여 만듦
-선택하고 실제로 적용한 jekyll 테마 위주로 작성함 (jekyll 테마 적용 시 테마에 따라 Github 빌드에 문제가 생길 수 있음) 
+선택하고 실제로 적용한 jekyll 테마 위주로 작성함 (jekyll 테마 적용 시 테마에 따라 Github 빌드에 문제가 생길 수 있음)
+참고 사이트 1: https://supermemi.tistory.com/144
+참고 사이트 2: https://velog.io/@neori/Jekyll-TeXt-Theme%EB%A1%9C-GitHub-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B0%9C%EB%B0%9C%ED%95%98%EA%B8%B0
 ```
 </br>
 
