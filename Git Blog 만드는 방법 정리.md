@@ -55,7 +55,7 @@ $ git push -u origin main
 
 
 
-## jekyll 설치 후 jekyll 로컬 서버에 띄우기
+## jekyll 설치 후 로컬 서버에 띄우기
 ```
 Git Blog 꾸밀 때 jekyll을 사용함.
 ```
