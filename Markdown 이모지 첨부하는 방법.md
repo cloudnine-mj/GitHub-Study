@@ -4,7 +4,9 @@
 
 * 마크다운 문법 **::** 사이에 이모티콘명을 넣으면 된다.
 
-  예시) <img src="https://user-images.githubusercontent.com/113915835/223406022-c7ea0dda-48e0-4a61-a5af-33322402ac2c.png">
+  예시) **::** 사이에 이모티콘명 fire을 넣으면 아래 이미지와 같이 변환됨
+
+  <img src="https://user-images.githubusercontent.com/113915835/223406022-c7ea0dda-48e0-4a61-a5af-33322402ac2c.png">
 
   
 
